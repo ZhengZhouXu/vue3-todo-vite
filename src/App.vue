@@ -2,25 +2,30 @@
   <h1>TODO</h1>
 
   <div class="todo-list">
-    <AddBar />
-    <List />
+    <AddBar @add="handleAdd" />
+    <List :list="list" @delete="handleDelete" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { defineComponent } from "vue";
-import AddBar from "./components/AddBar";
+import AddBar from "./components/AddBar/index.vue";
 import List from "./components/List/index.vue"
-import Test from "./components/Test"
 
-defineComponent({
-  AddBar,
-  List,
-  Test
-});
+ref: list = []
 
-function handleAdd (v: string) {
-  console.log(v)
+function handleAdd(v: string) {
+  if (v) {
+    list.push({
+      checked: false,
+      text: v
+    })
+  }
+}
+
+function handleDelete(index: number) {
+  if (index >= 0) {
+    list.splice(index, 1)
+  }
 }
 </script>
 

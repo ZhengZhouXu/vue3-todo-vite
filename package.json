@@ -6,6 +6,7 @@
     "build": "vite build"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^5.1.7",
     "ant-design-vue": "^2.0.0-rc.2",
     "vue": "^3.0.2"
   },

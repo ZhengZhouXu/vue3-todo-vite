@@ -35,6 +35,17 @@
     "@types/lodash" "^4.14.165"
     lodash "^4.17.15"
 
+"@ant-design/icons-vue@^5.1.7":
+  version "5.1.7"
+  resolved "https://registry.npm.taobao.org/@ant-design/icons-vue/download/@ant-design/icons-vue-5.1.7.tgz#5f8e26b547c3ecc16c0820152b935e8a44b5fad3"
+  integrity sha1-X44mtUfD7MFsCCAVK5NeikS1+tM=
+  dependencies:
+    "@ant-design/colors" "^5.0.0"
+    "@ant-design/icons-svg" "^4.0.0"
+    "@babel/runtime" "^7.10.4"
+    "@types/lodash" "^4.14.165"
+    lodash "^4.17.15"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
   resolved "https://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
