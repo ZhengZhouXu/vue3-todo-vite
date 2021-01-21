@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^5.1.7",
-    "ant-design-vue": "^2.0.0-rc.2",
+    "ant-design-vue": "^2.0.0-rc.4",
     "vue": "^3.0.2"
   },
   "devDependencies": {
